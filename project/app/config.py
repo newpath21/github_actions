@@ -8,7 +8,7 @@ from pydantic import BaseSettings, AnyUrl
 
 log = logging.getLogger("uvicorn")
 
-
+#
 class Settings(BaseSettings):
     environment: str = "dev"  # equivalent to os.getenv("ENVIRONMENT", "dev")
     testing: bool = 0
