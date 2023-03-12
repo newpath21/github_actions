@@ -1,2 +1,6 @@
 __pycache__
 env
+.pytest*
+.coveragerc
+.coverage
+htmlcov
