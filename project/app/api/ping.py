@@ -9,7 +9,7 @@ router = APIRouter()
 @router.get("/ping")
 async def pong(settings: Settings = Depends(get_settings)):
     return {
-        "ping": "pongster!",
+        "ping": "Heroku is deployed",
         "environment": settings.environment,
         "testing": settings.testing
     }
