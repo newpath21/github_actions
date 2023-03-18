@@ -21,6 +21,4 @@ async def generate_summary(summary_id: int, url: str) -> None:
 
     summary = article.summary
 
-    await asyncio.sleep(10)
-
     await TextSummary.filter(id=summary_id).update(summary=summary)
