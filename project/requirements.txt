@@ -10,3 +10,5 @@ pytest-cov==4.0.0
 flake8==5.0.4
 black==22.10.0
 isort==5.10.1
+pytest-xdist==3.0.2
+newspaper3k==0.2.8
